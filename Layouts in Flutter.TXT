@@ -1,0 +1,10 @@
+ ->Container is a widget class that allows you to customize its child widget.
+       Use a Container when you want to add padding, margins, borders, or background color, to name some of its capabilities.
+
+->All layout widgets have either of the following:
+       A child property if they take a single child – for example, Center or Container
+       A children property if they take a list of widgets – for example, Row, Column, ListView, or Stack.
+       Add the Text widget to the Center widget:
+->Basic stuff:
+        To create a row or column in Flutter, you add a list of children widgets to a Row or Column widget. In turn, each child can itself be a row or column, and so on.
+        The following example shows how it is possible to nest rows or columns inside of rows or columns.
