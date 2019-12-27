@@ -15,3 +15,12 @@ A widget’s state is stored in a State object, separating the widget’s state 
 
  The _FavoriteWidgetState class stores the mutable data that can change over the lifetime of the widget.
 
+How to manage the state:
+->Here are the most common ways to manage state:
+       ->The widget manages its own state
+       ->The parent manages the widget’s state
+       ->A mix-and-match approach
+
+Forms:
+ -> https://api.flutter.dev/flutter/widgets/Form-class.html
+ -> https://api.flutter.dev/flutter/widgets/FormField-class.html
